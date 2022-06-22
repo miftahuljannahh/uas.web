@@ -1,10 +1,23 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <div id="app">
+    <nav>
+     | <router-link to="/">Home</router-link> |
+      <router-link to="/databarang">Data Barang</router-link> |
+      <router-link to="/peminjaman">Peminjaman</router-link> |
+      <router-link to="/riwayat">Riwayat</router-link> |
+    </nav>
+
+  </div>
+  
+  
   <router-view/>
 </template>
+
+<script>
+export default {
+  
+}
+</script>
 
 <style>
 #app {
