@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <nav>
-     | <router-link to="/">Home</router-link> |
+    | <router-link to="/">Login</router-link> |
+      <router-link to="/home">Home</router-link> |
       <router-link to="/databarang">Data Barang</router-link> |
       <router-link to="/peminjaman">Peminjaman</router-link> |
       <router-link to="/riwayat">Riwayat</router-link> |
