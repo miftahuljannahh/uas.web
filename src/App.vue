@@ -6,6 +6,7 @@
       <router-link to="/databarang">Data Barang</router-link> |
       <router-link to="/peminjaman">Peminjaman</router-link> |
       <router-link to="/riwayat">Riwayat</router-link> |
+      <router-link to="/databarang">DataBarang</router-link> |
     </nav>
 
   </div>
